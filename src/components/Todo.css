@@ -1,0 +1,48 @@
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+form input {
+    width: 80%;
+    padding: 8px
+}
+form .submit {
+    padding: 8px;
+    margin: 6px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+li .title_check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+.title {
+    width: 50px;
+    overflow-wrap: break-word;
+    user-select: none;
+}
+.title.throught {
+    text-decoration: line-through;
+}
+.title .checkbox {
+    width: 20px;
+    height: 30px;
+}
+.update_todo {
+    display: flex;
+    width: 100%;
+}
